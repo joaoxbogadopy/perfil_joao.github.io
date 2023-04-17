@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+#pic {
+    position: relative;
+    background: #333;
+    width: 9%;
+    height: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#pic img{
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 22%;
+    width: 40%;
+    height: 40%;
+}
+
+#pic h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 100%;
+    height: 5px;
+    padding: 0px 0 15px;
+}
+
+
+
+#box_info nav{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 1%;
+    text-align: justify;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+#box_info h2{
+    font-size: 20px;
+    color:white;
+    margin: 5px;
+    text-align: center;
+}
+
+#box_info a{
+    text-decoration:none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#box_info a:hover{
+    border: 1px solid black;
+    color: rgba(194, 224, 19, 0.493);
+    border-radius: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 1172px) {
+    #pic {
+        position: relative;
+        background: #333;
+        width: 9%;
+        height: 1%;
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    
+    #pic h4{
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 80%;
+        height: 5px;
+        padding: 0px 0 15px;
+    }
+}
+
+@media screen and (max-width: 1111px){
+    #box_info nav{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 100%;
+        padding: 1%;
+        text-align: justify;
+        position: absolute;
+        left: 30%;
+        top: 1%;
+    }
+
+    header {
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/****DESCRIPCION O EL MEDIO, DESARROLLO**/
+
+
+/***comentario de lo que saqué
+background-color: aqua; 
+**/ 
